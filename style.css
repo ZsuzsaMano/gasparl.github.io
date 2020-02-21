@@ -1,0 +1,89 @@
+a:link {
+    color: #c6c6ec;
+}
+
+a:visited {
+    color: #d9d9df;
+}
+
+a:hover {
+    color: #d1d1ff;
+}
+
+body {
+    text-align: center;
+    color: #FFF;
+    background: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.texts li {
+    margin: 0.5em 0;
+}
+
+.centered {
+    display: inline-block;
+    background: #000;
+}
+
+.mhead {
+    margin: 0 0 2em 0;
+    padding: 0.2em;
+    text-align: center;
+    font-weight: bold;
+    background: #444;
+}
+
+.foot {
+    margin: 2em 0 0 0;
+    padding: 1em;
+    text-align: center;
+    background: #444;
+}
+
+.ttl {
+    font-weight: bold;
+}
+
+.texts {
+    max-width: 38em;
+    min-width: 15em;
+    font-size: 110%;
+    line-height: 150%;
+    text-align: left;
+    text-indent: 0;
+    padding: 0 0.5em;
+}
+
+.menu_list {
+    float: left;
+    font-size: 110%;
+}
+
+.menu_list a {
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_list a:hover {
+    background-color: #777;
+    color: #fff;
+    border-bottom: 3px solid black;
+}
+
+.mhead ul {
+    margin: 0.5em;
+}
+
+.mhead li {
+    margin: 0.5em 0;
+}
+
+.selected {
+    border-bottom: 3px solid black;
+}
