@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function change_menu(
     menu_to_show
 ) {
-    ['home', 'cv', 'contact'].forEach(function(memuee) {
+    ['home', 'cv', 'pubs', 'contact'].forEach(function(memuee) {
         document.getElementById("nav_" + memuee).classList.remove("selected");
         document.getElementById("page_" + memuee).style.display = 'none';
     });
