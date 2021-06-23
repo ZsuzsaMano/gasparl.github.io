@@ -71,37 +71,40 @@
                     </li>
                 </ul>
             </div>
-            <!---
+
+        </div>
+
+        <div id="other">
+
             <div class="texts ttl">
-                For students<br />
+                Other<br />
             </div>
             <div class="texts">
+
                 <ul>
+
                     <li>
-                        If you are either good in Python or expert in JS and would be interested in doing a thesis or internship in a related topic (normally: implementing and collecting data for at least one pilot experiment), just <a
+                        <span id='to_py' onclick="toggle('o_py', this)" class='togls'>Python&nbsp;material</span> &nbsp;
+                        <span id='to_stud' onclick="toggle('o_stud', this)" class='togls'>Thesis/internship</span>
+                    </li>
+
+
+                    <li id='o_py' style="display:none;" class='oths'>
+                        I’m not a professionally trained programmer and there are many freely available Python/PsychoPy tutorials from probably better qualified authors – nonetheless, people keep asking for the slides from my course, so here they are
+                        compressed in a <a target="_blank" href="https://gasparl.github.io/GL_Python_course_20210615.zip">ZIP
+                            file</a> (HW solutions removed). Very brief intros to R and to JavaScript are included.
+                    </li>
+                    <li id='o_stud' style="display:none;" class='oths'>
+                        If you are really good in Python, R, or JS, and would be interested in doing a thesis or internship (normally: implementing and collecting data for at least one pilot experiment, or otherwise reanalysing data from previous experiments), just <a
                             href="mailto:lkcsgaspar@gmail.com" target="_blank">email me</a>.
                         I'm often asked if I still do EEG experiments: the short answer is "no, it's way too much fuss". I'm open to any topic though as long as it's cool and easy to implement.
                     </li>
                 </ul>
-            </div>
-        --->
 
-        </div>
 
-        <div id="python">
 
-            <div class="texts ttl">
-                Python course<br />
             </div>
-            <div class="texts">
-                <ul>
-                    <li>
-                        I’m not a professionally trained programmer and there are many freely available Python/PsychoPy tutorials from probably better qualified authors – nonetheless, people keep asking for the slides from my course, so here they are
-                        compressed in a <a target="_blank" href="https://gasparl.github.io/GL_Python_course_20210615.zip">ZIP
-                                file</a> (HW solutions removed).
-                    </li>
-                </ul>
-            </div>
+
         </div>
 
         <div id="publications">
@@ -175,7 +178,7 @@
 
 
         <hr>
-        <div class="foot">2021-JUN-15</div>
+        <div class="foot">2021-JUN-23</div>
 
     </div>
 </body>
