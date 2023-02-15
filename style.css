@@ -34,7 +34,7 @@ ul {
 }
 
 .texts li {
-    margin: 0.5em 0;
+    margin: 10px 0;
 }
 
 .centered {
@@ -44,33 +44,33 @@ ul {
 
 .head {
     margin: 0;
-    padding-top: 0.5em;
+    padding-top: 15px;
     text-align: center;
 }
 
 .foot {
     margin: 0;
-    padding-bottom: 0.5em;
+    padding-bottom: 15px;
     text-align: center;
 }
 
 .ttl {
-    margin: 1.5em 0 0 0;
+    margin: 30px 0 0 0;
     font-weight: bold;
 }
 
 .texts {
-    max-width: 38em;
-    min-width: 15em;
+    max-width: 750px;
+    min-width: 200px;
     line-height: 150%;
     text-align: left;
     text-indent: 0;
-    padding: 0 0.5em;
+    padding: 0 30px;
 }
 
 .small {
     font-size: 90%;
-    text-indent: 2em;
+    padding-left: 30px;
 }
 
 .noselect {
